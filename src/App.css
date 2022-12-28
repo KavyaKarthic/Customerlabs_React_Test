@@ -1,31 +1,117 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  text-align: left;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
-.App-link {
-  color: #61dafb;
+
+.AppHeader {
+  padding: 10px;
+  background-color: #10adbc;
+  align-items: left;
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
 }
 
-.heart {
-  color: #ff0000;
+.arrow {
+  height: 3vmin;
+  pointer-events: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
 }
 
-.small {
-  font-size: 0.75rem;
+#savebtn {
+  color: #ffffff;
+  background-color: #10adbc;
+  height: 50px;
+  font-size: medium;
+  font-weight: bold;
+  width: fit-content;
+  padding: 5px;
+  border-color: #ffffff;
+  margin: 40px;
+  margin-left: 60px;
+}
+
+body {
+  background-color: rgb(196, 215, 231);
+}
+
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  height: 100%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.popup-content {
+  padding: 50px;
+}
+
+#segmentname {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 350px;
+}
+
+.dropdown {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 300px;
+}
+
+#addschemalink {
+  background-color: #fff;
+  color:green;
+  text-decoration: underline;
+  border: 0px;
+  font-weight: bold;
+}
+
+#saveseg {
+  padding: 10px;
+  background-color: rgb(0, 208, 111);
+  color: #ffffff;
+  border: 0px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+#cancelbtn {
+  margin-left: 10px;
+  padding: 10px;
+  color: #e10000;
+  border: 0px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 260px;
+  float: bottom;
 }
